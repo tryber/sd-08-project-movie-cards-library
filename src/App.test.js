@@ -2,10 +2,10 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 
 import App from './App';
-// import Header from './components/Header';
-// import MovieCard from './components/MovieCard';
-// import MovieList from './components/MovieList';
-// import Rating from './components/Rating';
+import Header from './components/Header';
+import MovieCard from './components/MovieCard';
+import MovieList from './components/MovieList';
+import Rating from './components/Rating';
 
 let wrapper;
 
@@ -90,7 +90,6 @@ describe('3 - Crie um componente `<MovieCard />`', () => {
 
     expect(wrapper.find('h5').text()).toBe('Movie Subtitle 1');
   });
-
 
   it('3.5 - Renderize a sinopse do filme dentro de uma tag `p`', () => {
     wrapper = shallow(<MovieCard movie={movie} />);

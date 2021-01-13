@@ -15,8 +15,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test --verbose=true",
     "eject": "react-scripts eject",
-    "lint:styles": "npx stylelint '**/*.css'",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
+    "fix": "npm run lint:styles:fix && npm run lint:fix",
+    "lint:styles": "npx stylelint '*/.css'",
+    "lint:styles:fix": "npx stylelint --fix '*/.css'",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
+    "lint:fix": "eslint --fix --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,9 +41,9 @@
     "enzyme-adapter-react-16": "^1.15.1",
     "eslint": "6.8.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-sonarjs": "^0.5.0",
     "install": "^0.13.0",
     "npm": "^6.14.9",
