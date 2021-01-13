@@ -1,0 +1,15 @@
+footer {
+  background-color: #343a40;
+  bottom: 0;
+  color: white;
+  left: 0;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.linked-in, .linked:visited, .linked:active {
+  color: orangered;
+  text-decoration: none;
+}

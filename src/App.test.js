@@ -2,10 +2,10 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 
 import App from './App';
-// import Header from './components/Header';
-// import MovieCard from './components/MovieCard';
-// import MovieList from './components/MovieList';
-// import Rating from './components/Rating';
+import Header from './components/Header';
+import MovieCard from './components/MovieCard';
+import MovieList from './components/MovieList';
+import Rating from './components/Rating';
 
 let wrapper;
 
@@ -106,7 +106,7 @@ describe('3 - Crie um componente `<MovieCard />`', () => {
 
   it('3.7 - Passe como prop para o componente `<Rating />` o atributo `rating`', () => {
     wrapper = mount(<MovieCard movie={movie} />);
-    const starRating = wrapper.find(Rating);
+    const starRating = wrapper.find('Rating');
 
     expect(starRating.props().rating).toEqual(4.5);
   });
