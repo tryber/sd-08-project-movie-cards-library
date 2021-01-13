@@ -6,34 +6,39 @@ body {
 
 .movie-card-header {
   align-items: center;
-  background-color: #343a40;
+  background-color: #15181b;
   display: flex;
-  height: 100px;
+  height: fit-content;
   justify-content: center;
 }
 
 .page-title {
   color: #f8f9fa;
-  font-size: 28px;
+  font-family: Bungee Shade , cursive;
+  font-size: 50px;
   font-weight: 500;
   text-align: center;
 }
 
 .movie-list {
+  background-color: #40505f;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
   padding: 48px 30px;
 }
 
 .movie-card {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   height: 450px;
+  justify-content: space-between;
   margin: 5px;
   overflow: hidden;
+  padding: 20px;
   width: 300px;
 }
 
