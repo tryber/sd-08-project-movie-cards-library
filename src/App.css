@@ -10,6 +10,8 @@ body {
   display: flex;
   height: 100px;
   justify-content: center;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .page-title {
@@ -36,7 +38,6 @@ body {
   overflow: hidden;
   width: 300px;
 }
-
 
 .movie-card-image {
   width: 100%;
