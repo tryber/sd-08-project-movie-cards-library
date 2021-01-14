@@ -1,15 +1,18 @@
 body {
-  background-color: whitesmoke;
+  background-color: black;
   box-sizing: border-box;
   font-size: 16px;
 }
 
 .movie-card-header {
   align-items: center;
-  background-color: #343a40;
+  background-color: #1a1b1b;
   display: flex;
   height: 100px;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .page-title {
@@ -19,11 +22,11 @@ body {
   text-align: center;
 }
 
-.movie-list {
+/* .movie-list {
   display: flex;
   flex-flow: row wrap;
   padding: 48px 30px;
-}
+} */
 
 .movie-card {
   background-color: white;
