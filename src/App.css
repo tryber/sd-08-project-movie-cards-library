@@ -37,6 +37,10 @@ body {
   width: 300px;
 }
 
+.movie-card:hover {
+  box-shadow: 0 4px 5px rgba(53, 53, 53, 0.2);
+}
+
 
 .movie-card-image {
   width: 100%;
