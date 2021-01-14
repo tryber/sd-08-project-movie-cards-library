@@ -28,7 +28,7 @@ const movies = [
     imagePath: 'images/Appleseed_Alpha.jpg',
   },
   {
-    title: 'Resident Evil',
+    title: 'Resident Evil',// implement MovieList component here
     subtitle: 'Vendetta',
     storyline: 'Chris Redfield enlists the help of Leon S. Kennedy and Rebecca Chambers to stop a death merchant, with a vengeance, from spreading a deadly virus in New York.',
     rating: 4.2,
