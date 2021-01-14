@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mallanna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body {
-  background-color: whitesmoke;
+  background-color: #070707fb;
   box-sizing: border-box;
   font-size: 16px;
 }
 
 .movie-card-header {
   align-items: center;
-  background-color: #343a40;
+  background: linear-gradient(to bottom, #000 0%, #070707fb 100%);
   display: flex;
   height: 100px;
   justify-content: center;
@@ -14,9 +20,11 @@ body {
 
 .page-title {
   color: #f8f9fa;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 60px;
+  font-weight: 700;
   text-align: center;
+  /* font-family: 'Luckiest Guy', cursive; */
+  font-family: 'Aladin', cursive;
 }
 
 .movie-list {
@@ -26,9 +34,9 @@ body {
 }
 
 .movie-card {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 3px;
+  background-color: #030303;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   height: 450px;
@@ -37,6 +45,10 @@ body {
   width: 300px;
 }
 
+.movie-card:hover {
+  transition: transform .2s;
+  transform: scale(1.15);
+}
 
 .movie-card-image {
   width: 100%;
@@ -50,28 +62,35 @@ body {
 .movie-card-title {
   font-size: 24px;
   font-weight: 500;
-  margin: 0 0 12px;
+  margin: 2px 10px;
+  color: #f8f9fa;
+  font-family: 'Yeon Sung', cursive;
 }
 
 .movie-card-subtitle {
   color: #6c757d;
-  font-size: 16px;
-  font-weight: 500;
-  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: 445;
+  margin: 0 15px;
 }
 
 .movie-card-storyline {
-  font-size: 14px;
+  font-size: 15px;
   text-align: justify;
+  padding: 0 10px;
+  color: #f8f9fab0;
+  font-family: 'Mallanna', sans-serif;
 }
 
 .rating {
-  background-color: #007bff;
+  background-color: #00060c;
   border-radius: 25px;
   color: white;
+  font-family: 'Russo One', sans-serif;
   font-size: 16px;
-  font-weight: 700;
-  padding: 3px 9px;
+  font-weight: 400;
+  padding: 10px;
+  width: 100%;
 }
 
 .movie-card-rating {
