@@ -347,7 +347,7 @@ Este componente representará toda a área com os cartões de filmes. `<MovieLis
 ### 3 - Crie um componente `<MovieCard />`
 #### 3.1 - Renderize o componente `<MovieCard />`
 
-Esse componente representa um cartão de filme. `<MovieCard />` deve receber uma prop `movie`. Essa prop será um objeto, contendo as propriedades, `title`, `subtitle`, `storyline`, `imagePath` e `rating`.
+Esse componente representa um cartão de filme. `<MovieCard />` deve receber uma prop `movie`. Essa prop será um objeto, contendo as propriedades, `.
 
 **O que será verificado:**
 
