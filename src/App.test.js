@@ -2,10 +2,10 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 
 import App from './App';
-// import Header from './components/Header';
-// import MovieCard from './components/MovieCard';
-// import MovieList from './components/MovieList';
-// import Rating from './components/Rating';
+import Header from './components/Header';
+import MovieCard from './components/MovieCard';
+import MovieList from './components/MovieList';
+import Rating from './components/Rating';
 
 let wrapper;
 
@@ -100,7 +100,6 @@ describe('3 - Crie um componente `<MovieCard />`', () => {
 
   it('3.6 - Renderize o componente `<Rating />` dentro de `<MovieCard />`', () => {
     wrapper = shallow(<MovieCard movie={movie} />);
-
     expect(wrapper.find('Rating').length).toEqual(1);
   });
 
