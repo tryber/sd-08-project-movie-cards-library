@@ -2,10 +2,10 @@ import React from 'react';
 import { mount, shallow } from 'enzyme';
 
 import App from './App';
-// import Header from './components/Header';
-// import MovieCard from './components/MovieCard';
-// import MovieList from './components/MovieList';
-// import Rating from './components/Rating';
+import Header from './components/Header';
+import MovieCard from './components/MovieCard';
+import MovieList from './components/MovieList';
+import Rating from './components/Rating';
 
 let wrapper;
 
@@ -46,7 +46,7 @@ describe('1 - Crie um componente `<Header />`', () => {
 });
 
 describe('2 - Crie um componente `<MovieList />`', () => {
-  it('2.1 - Renderize o componente `<MovieList />`', () => {
+  it('21 - Renderize o componente `<MovieList />`', () => {
     shallow(<MovieList movies={movies} />);
   });
 
