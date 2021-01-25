@@ -1,0 +1,5 @@
+.rating {
+  align-self: flex-end;
+  max-width: 20px;
+  padding: 5px;
+}

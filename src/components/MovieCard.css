@@ -1,0 +1,14 @@
+.movieCard {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  padding: 5px;
+  width: 300px;
+}
+
+.movieCard img {
+  background-color: crimson;
+  height: 200px;
+  width: 100%;
+}
