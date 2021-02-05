@@ -9,7 +9,7 @@ class MovieList extends React.Component {
   render() {
     return (
       <MovieList>
-        <MovieCard />
+        {/* <MovieCard /> */}
       </MovieList>
     );
   }
